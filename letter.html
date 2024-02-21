@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat kecil untuk Rian😊❤️</title>
+
+    <link rel="stylesheet" href="./css/letter.css">
+    <script src="./jquery/jquery-3.7.1.min.js"></script>
+    <script src="./js/letter.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <!-- Lagu link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .play-pause-icon1 {
+            font-size: 24px;
+            cursor: pointer;
+            color: rgb(185, 24, 24);
+            position: absolute;
+            top: 10px; /* Adjust the top position as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 999;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <audio id="myAudio1" src="img/Valentine.mp3" autoplay loop>
+            Your browser does not support the audio tag.
+        </audio>
+        <i class="play-pause-icon1 fas fa-play"> Play Musiknya Dulu Sayang❤️</i>
+
+    </div>
+
+    <div class="container">
+        <div class="valentines">
+            
+            <div class="envelope">
+            </div>
+            <div class="front">
+            </div>
+            <div class="card">
+                <div class="text">
+                    Hai... cantik, valentine ke 3 kita udah tiba aja nih...😘 <br>
+                    Tak terasa ya... seakan waktu itu cepat banget buat kita🥰<br>
+                    <br>
+                    Aku ingin mengatakan sesuatu yang sangat penting untukmu...<br>
+                    Aku ingin kamu tahu bahwa aku sangat mencintaimu🥰<br>
+                    I love hearing you laugh, I love seeing you smile. I love every single thing about you❤️<br>
+                    Perasaanku dari awal tidak pernah berubah...😊💕<br>
+                    Maaf ya kalau kadang aku ngeselin, sering buat kamu marah😭<br>
+                    Aku janji akan berusaha jadi lebih baik lagi buat kamu🙏<br>
+                    Because i am such a lucky man to have you in my life Rian😊❤️. <br>
+                    <br>
+                    Aku tau aku masih banyak kurangnya, tapi apapun itu asal berdua<br>
+                    Aku yakin kita bisa lewati semuanya, karena kita saling melengkapi<br>
+                    please be my valentine forever and ever and ever🥰.
+                    <br>
+                    <br>
+                    - your one and only, Taa🤍. <br>
+                    <br>
+                    Note: Hadiah THV menyusul😁
+                </div>
+
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="shadow"></div>
+
+    </div>
+    <script>
+        var playPauseIcon = document.querySelector('.play-pause-icon1');
+var audio = document.getElementById('myAudio1');
+var isPlaying = false;
+
+playPauseIcon.addEventListener('click', function () {
+    if (isPlaying) {
+        audio.pause();
+        playPauseIcon.classList.remove('fa-pause');
+        playPauseIcon.classList.add('fa-play');
+    } else {
+        audio.play();
+        playPauseIcon.classList.remove('fa-play');
+        playPauseIcon.classList.add('fa-pause');
+    }
+    isPlaying = !isPlaying;
+});
+
+    </script>
+
+</body>
+
+</html>
